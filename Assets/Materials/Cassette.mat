@@ -32,7 +32,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b251d85606e345245bd62b83e4446fd0, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -61,7 +61,7 @@ Material:
     - _OverrideLightmapDir: 0
     - _QueueOffset: 0
     - _RimEnabled: 0
-    - _SelfShadingSize: 0.488
+    - _SelfShadingSize: 0.69
     - _SelfShadingSizeExtra: 0.6
     - _ShadowEdgeSize: 0.394
     - _ShadowEdgeSizeExtra: 0.05
@@ -76,8 +76,8 @@ Material:
     - _VertexColorsEnabled: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.254717, g: 0.254717, b: 0.254717, a: 1}
-    - _ColorDim: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
+    - _ColorDim: {r: 0.047169805, g: 0.045167312, b: 0.045167312, a: 1}
     - _ColorDimCurve: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
     - _ColorDimExtra: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}
     - _ColorDimSteps: {r: 0.85023, g: 0.85034, b: 0.85045, a: 0.85056}

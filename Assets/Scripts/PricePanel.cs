@@ -19,8 +19,9 @@ public class PricePanel : MonoBehaviour
     private BoxCollider _collider;
     private float _duration = 1f;
 
+    public event Action ConveyorReady;
 
-    private void Start()
+        private void Start()
     {
         _collider = GetComponent<BoxCollider>();
 
@@ -85,7 +86,7 @@ public class PricePanel : MonoBehaviour
 
             yield return null;
         }
-        
         SpawnObject();
+        ConveyorReady?.Invoke();
     }
 }

@@ -3,12 +3,12 @@ using UnityEngine;
 
 public class SpawnObject : MonoBehaviour
 {
-    [SerializeField] private float _punchDuration = 0.1f;
-    [SerializeField] private float _duration = 0.3f;
+    [SerializeField] private float _punchDuration;
+    [SerializeField] private float _duration;
     [SerializeField] private Vector3 _desiredSize;
     [SerializeField] private Vector3 _punchPower;
 
-    private Vector3 _startSize = new Vector3(0f, 0f, 0f);
+    private Vector3 _startSize = Vector3.zero;
     private Sequence _spawnAnimation;
     
     private void Start()
